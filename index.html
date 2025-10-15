@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Student Details</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
     <h1>📑 Student Details</h1>
     <form id="docForm">
       <label for="rollNo">Enter Roll Number:</label>
-      <input type="text" id="rollNo" placeholder="Enter Roll Number" required>
+      <input type="text" id="rollNo" placeholder="Enter Roll Number" required />
 
       <label for="docType">Select Document:</label>
       <select id="docType" required>
@@ -30,13 +30,14 @@
         <option value="EAMCET_RANK">EAMCET/ECET/ICET/PGCET Rank</option>
         <option value="CET_HALLTICKET">EAMCET/ECET/ICET/PGCET Hall Ticket</option>
         <option value="BIRTHCERTIFICATE">Date of Birth Certificate</option>
+        <option value="FIELDPROJECT">Field Project Report (PDF)</option>
       </select>
 
       <button type="submit">View Document</button>
     </form>
 
     <div class="result" id="resultBox"></div>
-    <footer>© 2025 College Portal |</footer>
+    <footer>© 2025 College Portal</footer>
   </div>
 
   <script src="script.js"></script>
