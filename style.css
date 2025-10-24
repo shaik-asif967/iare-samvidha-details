@@ -80,3 +80,31 @@ footer {
   font-size: 12px;
   color: #bbb;
 }
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.tabs button.active {
+  background: linear-gradient(135deg, #00f2fe, #4facfe);
+  box-shadow: 0px 4px 15px rgba(0, 200, 255, 0.5);
+}
+
+.hidden {
+  display: none;
+}
+
+
