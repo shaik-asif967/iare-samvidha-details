@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Poppins", sans-serif;
   background: linear-gradient(135deg, #1e1e2f, #2c5364);
@@ -13,6 +14,7 @@ body {
   padding: 20px;
   color: white;
 }
+
 .container {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 20px;
@@ -22,18 +24,21 @@ body {
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
   text-align: center;
 }
+
 h1 {
   font-size: 26px;
   margin-bottom: 15px;
   color: #00e6e6;
   text-shadow: 0px 0px 10px #00f7ff;
 }
+
 label {
   display: block;
   text-align: left;
   margin: 10px 0 5px;
   font-size: 14px;
 }
+
 input,
 select {
   width: 100%;
@@ -46,6 +51,7 @@ select {
   background: #f5f5f5;
   color: #333;
 }
+
 button {
   background: linear-gradient(135deg, #00f2fe, #4facfe);
   border: none;
@@ -59,10 +65,12 @@ button {
   transition: 0.3s;
   box-shadow: 0px 6px 15px rgba(0, 200, 255, 0.5);
 }
+
 button:hover {
   transform: scale(1.05);
   box-shadow: 0px 8px 20px rgba(0, 200, 255, 0.7);
 }
+
 .result {
   margin-top: 20px;
   background: rgba(255, 255, 255, 0.1);
@@ -70,16 +78,20 @@ button:hover {
   border-radius: 15px;
   display: none;
 }
+
 .result img {
   max-width: 100%;
   border-radius: 10px;
   margin-top: 10px;
 }
+
 footer {
   margin-top: 15px;
   font-size: 12px;
   color: #bbb;
 }
+
+/* 🔹 Tabs Styling */
 .tabs {
   display: flex;
   justify-content: center;
@@ -106,5 +118,3 @@ footer {
 .hidden {
   display: none;
 }
-
-
